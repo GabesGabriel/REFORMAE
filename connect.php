@@ -1,8 +1,8 @@
 <?php
 
- if (!$use = mysqli_connect('localhost', 'root', '', 'bd_cadastro')){
+ if (!$profissa = mysqli_connect('localhost', 'root', '', 'bd_profissionais')){
     echo "Erro ao acessar a base de dados";
  }
- mysqli_query($use, "SET NAMES utf8");
+ mysqli_query($profissa, "SET NAMES utf8");
  
- ?>
+?>

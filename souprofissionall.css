@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+.perfilprofissa{
+    display: flex;
+    gap: 30px;
+}
+.dadospri{
+    background-color: #121212;
+    border: solid #1e1e1e;
+    border-width: 1px;
+    margin: 50px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 30px;
+    width: 450px;
+    height: 830px;
+}
+.fotoperfil{
+    height: 160px;
+    width: 160px;
+    border-radius: 350px;
+    border: #004AAD solid;
+    border-width: 5px;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+.nome{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.descricao{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+.space{
+    width: 140px;
+    margin-left: 140px;
+    border-color: #004AAD;
+}
+.demail{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.email{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.datanasc{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-right: 205px;
+    font-size: 18px;
+}
+.eemail{
+    display: flex;
+}
+.material-symbols-outlined{
+    margin-left: 50px;
+    margin-top: 35px;
+    color: #004AAD;
+    font-weight: 600;
+}
+
+.dadossec{
+    background-color: #121212;
+    border: solid #1e1e1e;
+    border-width: 1px;
+    margin: 50px;
+    margin-left: 0px;
+    text-align: center;
+    border-radius: 30px;
+    width: 1300px;
+    height: 830px;
+}
+.menu{
+    display: flex;
+}
+.sobremim{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.eu{
+    width: 90px;
+    margin-left: 25px;
+    height: 5px;
+    background: #004AAD;
+    border: #004AAD solid;
+}
+.menun{
+    background-color: #121212;
+}
+.links{
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 270px;
+    gap: 70px;
+}
+.link{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.link:hover{
+    color: #c0c0c0;
+}
+.link1{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #004AAD;
+}
+.link1:hover{
+    color: #245da7;
+}
+.servicos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 50px;
+    width: 1100px;
+}
+.blocohabi{
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    border: #004AAD solid;
+    border-width: 1px;
+    text-align: left;
+    width: 300px;
+    height: 110px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.dehabi{
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight:400;
+}
+.habilidades{
+    padding: 10px;
+    padding-left: 15px;
+}
+.blocobranca{
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    border: #004AAD solid;
+    border-width: 1px;
+    text-align: left;
+    width: 300px;
+    height: 110px;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+.decobranca{
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.cobranca{
+    padding: 10px;
+    padding-left: 15px;
+}
+.port{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.imagemm{
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+}
