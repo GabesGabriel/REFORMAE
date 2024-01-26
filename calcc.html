@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Novo Orçamento</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+ 
+	</head>
+	
+	<body>
+	
+<script src="jquery.js" type="text/javascript"></script>
+<script src="plugin/jquery.mask.js" type="text/javascript"></script>
+		<header>
+			<img style="width: 350px; height: 70px;" src="img/logocertaa.png" alt="logo"/>
+			<h2 style="color: white;">Novo Orçamento</h2>
+
+				<form style="margin: 67px auto;" class="clearfix formulario" action="" method="get">
+					<div class="form-group left">
+						<label>Item:</label>
+						<br>
+						<br>
+						<input type="text" placeholder="Nome do Item" maxlength="38" class="form campo-nome" name="field-nome"/>
+					</div>
+					<div class="form-group left">
+						<label>Quantidade:</label>
+						<br>
+						<br>
+						<input type="number" class="form campo-quantidade" min="1" name="field-quantidade" value="1"/>
+					</div>
+					<div class="form-group left">
+						<label>Preço Unitário:</label>
+						<br>
+						<br>
+						<input type="text" class="form campo-precoUnitario" name="field-preco" placeholder="R$ 00,00"/>
+					</div>
+				
+					
+					<div class="left add-button">
+						<a href="javascript:void(0)">Adicionar</a>
+					</div>
+				</form>	
+				<div class="d-sm-flex align-items-center justify-content-between mb-4 no-print">
+
+					
+				<form class="lista hidden" action="geraPDF.php" method="post">
+					<table>
+						<thead>
+							<tr>
+								<th>Nome do Item</th>
+								<th>Quantidade</th>
+								<th>Preço Unitário (R$)</th>
+								<th>SubTotal (R$)</th>
+								<th>	</th>
+							</tr>
+						</thead>
+		</header>
+	
+				<tbody>
+					
+				</tbody>
+			</table>
+			<div class="clearfix">
+				<input type="text" class="valor-total" value="" name="valorTotal"/>
+			<div class="move">	<button type="button" onclick="window.print()"
+					  class="pdf"><i></i> Gerar PDF</button></div>
+				  </div>
+			</div>
+		</form>
+	</div>
+		<script type="text/javascript" src="script.js"></script>
+
+	</body>
+</html>
