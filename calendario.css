@@ -1,0 +1,175 @@
+@import url(' https://fonts.cdnfonts.com/css/glacial-indifference-2 ');
+
+html{
+
+
+  --body-color:white ;
+
+  --header-color:#000000;
+
+  --header-button:#004AAD;
+
+  --color-weekdays: #ffffff;
+  
+  --box-shadow: #CBD4C2;
+
+  --hover:#87b0e9;
+
+  --current-day:#004AAD;
+
+  --event-color: #004aad;
+
+  --modal-event: #DFEDFF;
+
+ --color-day:#DFEDFF;
+  
+
+}
+
+*{
+    font-family: 'Glacial Indifference', sem serifa;
+}
+
+body {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: var(--body-color);
+}
+button {
+  width: 75px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+#header {
+  padding: 10px;
+  color: var(--header-color) ;
+  font-size: 30px;
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+#header button {
+  background-color:var(--header-button);
+}
+#container {
+  width: 770px;
+}
+#weekdays {
+  width: 100%;
+  display: flex;
+  font-size: 13px;
+  color: var(--color-weekdays) ;
+  border: solid 15% #004AAD;
+  border-radius: 8px;
+  background-color: #004AAD;
+}
+#weekdays div {
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+}
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--color-day);
+  margin: 5px;
+  box-shadow: 0px 0px 3px var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15%;
+}
+.day:hover {
+  background-color: var(--hover);
+}
+
+.day + #currentDay {
+  background-color:var(--current-day);
+}
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: var(--event-color);
+  color: white;
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+}
+.padding {
+  cursor: default !important;
+  background-color: var(--body-color) !important;
+  box-shadow: none !important;
+}
+#newEventModal, #deleteEventModal {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: var(--modal-event);
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 100px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+#eventTitleInput {
+  padding: 39px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+#eventTitleInput.error {
+  border: 2px solid red;
+}
+#cancelButton, #deleteButton {
+  background-color: var(--header-button);
+}
+#saveButton, #closeButton {
+  background-color: var(--header-button);
+}
+#eventText {
+  font-size: 14px;
+}
+#modalBackDrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+}
+
+#logo {
+  color: white;
+  font-weight: 100;
+}
+
+h6{
+  font-size: 20px;
+}
+
+
