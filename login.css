@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    font-family: 'Glacial Indifference', sans-serif;
+   
+}
+.logo{
+    align-content: center;
+    padding: 2.8646vw 6.7708vw;
+    font-weight: 1 !important;
+    font-family: 'Glacial Indifference', sans-serif;
+    display: flex;
+}
+
+.logo h1{
+    font-weight: 1;
+    display:grid;
+    align-items: center;
+}
+.menu{
+    font-family: 'Glacial Indifference', sans-serif;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.menu > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 2.0833vw 5.2083vw;
+    margin-bottom: 0vw;
+   
+}
+.menu li{
+    justify-content: space-between;
+    border: solid 1.0417vw white;
+  
+}
+.menu a{
+ text-decoration: none;
+ color: #232323;
+}         
+
+
+.ContainerMaior {
+    display: grid;
+    justify-content: center;
+    height: 35.4167vw;
+    align-items: center;
+}
+
+.ContainerMaior p {
+    cursor: pointer;
+    font-weight: 600;
+    color: #004AAD;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.ContainerMaior h1 {
+    font-size: 1.4em;
+  display: grid;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.ContainerMaior h2 {
+    font-size: 1.4em;
+    color: #004AAD;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+input {
+    width: 13.0208vw;
+    height: 1.5625vw;
+    border: none;
+    border-bottom: .0521vw solid silver;
+    outline: none;
+    font-weight: 600;
+    color: #004AAD;
+    padding-left: .1563vw;
+}
+
+button {
+    cursor: pointer;
+    width: 6.25vw;
+    height: 1.8229vw;
+    border: none;
+    border-radius: .2604vw;
+    background: #004AAD;
+    color: #fff;
+}
+.button{
+    cursor: pointer;
+    width: 6.25vw;
+    height: 1.8229vw;
+    border: none;
+    border-radius: .2604vw;
+    background: #004AAD;
+    color: #fff;
+    
+}
+.espaçoButtonEntrar{
+    display: grid;
+    justify-items: center;
+    height: 3.6458vw;
+    align-items: center;
+}
+
+
+
+    #container {
+        height: 27.0833vw;
+        border-radius: .5208vw;
+        box-shadow: 0vw 0vw .3125vw -0.0521vw #012B62;
+        display: flex;
+       
+    }   
+
+        #container .banner {
+            width: 27.0833vw;
+            height: 27.0833vw;
+            border-top-left-radius: .5208vw;
+            border-bottom-left-radius: .5208vw;
+            background: #012B62;
+            padding: .5208vw .5208vw ;
+
+            display: none;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #container .box-login {
+            width: 16.6667vw;
+            height: 27.0833vw;
+            border-radius: .5208vw;
+            background: #fff;
+            padding: .5208vw .5208vw;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .box-login .box {
+                width: 13.0208vw;
+                height: 19.8958vw;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+                .box .social {
+                    width: 12.5vw;
+                    height: 2.1875vw;
+
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+
+                    .social img {
+                        cursor: pointer;
+                    }
+
+            .box-login .box-account {
+                width: 80%;
+                height: 18.75vw;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+    
+    #bubble {
+        cursor: pointer;
+        position: absolute;
+        width: 2.6042vw;
+        height: 2.6042vw;
+        right: .7813vw;
+        bottom: .7813vw;
+        border-radius: 50%;
+        border: .0521vw solid #004AAD;
+        background: #004AAD;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.formu{
+    display: grid;
+    justify-content: center;
+    width: 14.5833vw;
+}
+    
+.mexe{
+
+display: flex;
+justify-content: center;
+}
+.box-login h1{
+    font-size: 1.6vw;
+}

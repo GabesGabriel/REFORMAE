@@ -1,0 +1,15 @@
+@media (min-width: 53.3333vw) {
+        #container {
+            width: 42.9688vw;
+            justify-content: space-between;
+        }  
+
+            #container .banner {
+                display: flex;
+            }
+
+            #container .box-login {
+                width: 20.0521vw;
+                border-radius: .5208vw .5208vw .5208vw 0vw;
+            }
+}
